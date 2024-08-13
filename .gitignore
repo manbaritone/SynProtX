@@ -1,0 +1,9 @@
+# folder
+__pycache__/
+data/
+results/
+
+# files
+*.log
+*.out
+*.sbatch

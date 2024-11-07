@@ -1,0 +1,9 @@
+# folder
+__pycache__/
+data/
+results/
+.ipynb_checkpoints/
+# files
+*.log
+*.out
+*.sbatch

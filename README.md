@@ -12,15 +12,21 @@ We use [Miniconda](https://docs.anaconda.com/miniconda/) to manage Python depend
 conda env create --name SynProtX --file env.yml
 conda activate SynProtX
 ```
+
+## Downloading raw data
+
+Dataset, hyperparameters, and model checkpoints can be download through [Zenodo](https://doi.org/10.5281/zenodo.14040426).
+
 ## Generating dataset
 
-Published data can be download through [Zenodo](https://doi.org/10.5281/zenodo.14040426). A tarball will be obtained. After file extraction, move all nested folders to the root of this project directory. You might need to move all files in `data/export` up to `data` folder. Otherwise, you will run the Jupyter Notebook files to generate mandatory data. Let’s take a look at `ipynb` folder. Run the following files in order if you want to replicate our exported data.
+A tarball will be obtained after download. After file extraction, move all nested folders to the root of this project directory. You might need to move all files in `data/export` up to `data` folder. Otherwise, you will run the Jupyter Notebook files to generate mandatory data. Let’s take a look at `ipynb` folder. Run the following files in order if you want to replicate our exported data.
+
 - `01_drugcomb_clean.ipynb` → `cleandata_cancer.csv`
 - `02_CCLE_gene_expression` → `CCLE_expression_cleaned.csv`
 - `03_omics_preprocess` → `protein_omics_data_cleaned.csv`
-- `04_drugcomb_gene_prot_clean` → `data_preprocessing_gene.pkl`, `data_drugcomb.pkl`,  `data_preprocessing_protein.pkl`
+- `04_drugcomb_gene_prot_clean` → `data_preprocessing_gene.pkl`, `data_drugcomb.pkl`, `data_preprocessing_protein.pkl`
 - `05_graph_generate.ipynb` → `nps_intersected` folder
-- `06_smiles_feat_generate.ipynb` → `smiles_graph_data.pkl` 
+- `06_smiles_feat_generate.ipynb` → `smiles_graph_data.pkl`
 - `07_to_ecfp6_deepsyn.ipynb` → `deepsyn_drug_row.npy`, `deepsyn_drug_col.npy`
 
 > If the console shows an error indicating that SMILES not found, you MUST run the file `06_smiles_feat_generate.ipynb` again to regenerate data.

@@ -4,6 +4,8 @@
 
 An official implementation of our research paper **"SynProtX: Enhanced Deep Learning Model for Predicting Anticancer Drug Synergy Using Large-Scale Proteomics"**.
 
+![SynProtX architecture](https://github.com/manbaritone/SynProtX/blob/main/synprotx_architect.png)
+
 ## Setting up environment
 
 We use [Miniconda](https://docs.anaconda.com/miniconda/) to manage Python dependencies in this project. To reproduce our environment, please run the following script in the terminal:

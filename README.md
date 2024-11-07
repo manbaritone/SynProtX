@@ -1,4 +1,4 @@
-# SynProtX: Enhanced Deep Learning Model for Predicting Anticancer Drug Synergy Using Large-Scale Proteomics
+# SynProtX
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14040426.svg)](https://doi.org/10.5281/zenodo.14040426)
 

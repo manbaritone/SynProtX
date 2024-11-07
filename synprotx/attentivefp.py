@@ -386,7 +386,7 @@ def customslice(data_list: list, index: list):
 
 def load_dataset(adj, smiles, Y, ID):
     d = []
-    data_dict = pd.read_pickle("./data/feature_dicts/MTL_ALL_WT_MT.pkl")
+    data_dict = pd.read_pickle("./data/smiles_graph_data.pkl")
 
     print("Load dataset No.(label,smiles):", len(Y), len(smiles))
 

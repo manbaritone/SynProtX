@@ -11,7 +11,7 @@ An official implementation of our research paper **"SynProtX: Enhanced Deep Lear
 We use [Miniconda](https://docs.anaconda.com/miniconda/) to manage Python dependencies in this project. To reproduce our environment, please run the following script in the terminal:
 
 ```sh
-conda env create --name SynProtX --file env.yml
+conda env create -f env.yml
 conda activate SynProtX
 ```
 

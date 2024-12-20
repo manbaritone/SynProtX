@@ -2,7 +2,7 @@
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14040426.svg)](https://doi.org/10.5281/zenodo.14040426)
 
-An official implementation of our research paper **"SynProtX: Enhanced Deep Learning Model for Predicting Anticancer Drug Synergy Using Large-Scale Proteomics"**.
+An official implementation of our research paper **"SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations"**.
 
 ![SynProtX architecture](https://github.com/manbaritone/SynProtX/blob/main/synprotx_architect.png)
 

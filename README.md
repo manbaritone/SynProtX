@@ -17,7 +17,7 @@ conda activate SynProtX
 
 ## Downloading raw data
 
-Datasets, hyperparameters, and model checkpoints can be downloaded through [Zenodo](https://doi.org/10.5281/zenodo.14040426).
+Datasets, hyperparameters, and model checkpoints can be downloaded through [Zenodo](https://doi.org/10.5281/zenodo.13285494).
 
 ## Generating dataset
 

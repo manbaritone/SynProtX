@@ -1,6 +1,6 @@
 # SynProtX
 
-[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.14040426.svg)](https://doi.org/10.5281/zenodo.14040426)
+[![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13285494.svg)](https://doi.org/10.5281/zenodo.13285494)
 
 An official implementation of our research paper **"SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations"**.
 

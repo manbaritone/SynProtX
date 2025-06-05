@@ -48,4 +48,78 @@ Possible options are listed below.
 - `--mode`/`-m` input must be either `clas`, for classification task, or `regr`, for regression task. Default to `clas`
 - Flags `--no-feamol`, `--no-feagene`, `--no-feaprot` disable the molecule branch, gene expression branch, and protein expression branch, respectively, when propagate through the model.
 
-Note that there are more options to configure. Execute `python  synprotx/<model>.py -h` for more detailed description.
+**Note:** There are more options to configure. Execute `python  synprotx/<model>.py -h` for a more detailed description.
+
+## Citations
+
+**Zenodo**
+```bibtex
+@dataset{boonyarit_2024_14656345,
+  author       = {Boonyarit, Bundit and
+                  Kositchutima, Matin and
+                  Na Phattalung, Tisorn and
+                  Yamprasert, Nattawin and
+                  Thuwajit, Chanitra and
+                  Rungrotmongkol, Thanyada and
+                  Nutanong, Sarana},
+  title        = {SynProtX: A Large-Scale Proteomics-Based Deep
+                   Learning Model for Predicting Synergistic
+                   Anticancer Drug Combinations
+                  },
+  month        = nov,
+  year         = 2024,
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.14656345},
+  url          = {https://doi.org/10.5281/zenodo.14656345},
+}
+```
+
+**WorkflowHub**
+```bibtex
+@article{boonyarit_yamprasert_2025,
+  author       =  {Boonyarit, Bundit and
+                  Yamprasert, Nattawin and
+                  Kositchutima, Matin},
+  title        =  {SynProtX},
+  year         =  {2025}
+  URL          =  {https://workflowhub.eu/workflows/1726?version=2},
+  DOI          =  {10.48546/WORKFLOWHUB.WORKFLOW.1726.2},
+  publisher    =  {WorkflowHub},
+}
+```
+
+**DOME-ML**
+```bibtex
+@misc{boonyarit2025synprotx,
+  author       = {Boonyarit, Bundit and
+                  Kositchutima, Matin and
+                  Na Phattalung, Tisorn and
+                  Yamprasert, Nattawin and
+                  Thuwajit, Chanitra and
+                  Rungrotmongkol, Thanyada and
+                  Nutanong, Sarana},
+  title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
+  publisher    = {DOME-ML Registry},
+  year         = {2025},
+  note         = {DOME-ML Annotations},
+  url          = {https://registry.dome-ml.org/review/7hk5upi8vx}
+}
+```
+
+**Software Heritage**
+```bibtex
+@software{boonyarit2025synprotx,
+  author       = {Boonyarit, Bundit and
+                  Kositchutima, Matin and
+                  Na Phattalung, Tisorn and
+                  Yamprasert, Nattawin and
+                  Thuwajit, Chanitra and
+                  Rungrotmongkol, Thanyada and
+                  Nutanong, Sarana},
+  title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
+  year         = 2025,
+  version      = {1},
+  url          = {https://archive.softwareheritage.org/swh:1:snp:28019112cc4ea0fdcb8c529e6c895b0dcc434add;origin=https://github.com/manbaritone/SynProtX}},
+  type         = {Computer software}
+}
+```

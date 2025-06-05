@@ -46,7 +46,7 @@ python synprotx/<model>.py -d <database> -m <mode>
 Possible options are listed below.
 
 - `model` represents the name of the model to run. Must be one of `gat`, `gcn`, `attentivefp` and `gatfp`.
-- `--database`/`-d` specifies data source to train the model on. Must be one of `almanac-breast`, `almanac-lung`, `almanac-ovary`, `almanac-skin`, `friedman`.
+- `--database`/`-d` specifies data source to train the model on. Must be one of `almanac-breast`, `almanac-lung`, `almanac-ovary`, `almanac-skin`, `friedman`, `oneil`.
 - `--mode`/`-m` input must be either `clas`, for classification task, or `regr`, for regression task. Default to `clas`
 - Flags `--no-feamol`, `--no-feagene`, `--no-feaprot` disable the molecule branch, gene expression branch, and protein expression branch, respectively, when propagate through the model.
 

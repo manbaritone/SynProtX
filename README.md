@@ -80,12 +80,16 @@ Possible options are listed below.
 ```bibtex
 @article{boonyarit_yamprasert_2025,
   author       =  {Boonyarit, Bundit and
+                  Kositchutima, Matin and
+                  Na Phattalung, Tisorn and
                   Yamprasert, Nattawin and
-                  Kositchutima, Matin},
+                  Thuwajit, Chanitra and
+                  Rungrotmongkol, Thanyada and
+                  Nutanong, Sarana},
   title        =  {SynProtX},
   year         =  {2025}
-  URL          =  {https://workflowhub.eu/workflows/1726?version=2},
-  DOI          =  {10.48546/WORKFLOWHUB.WORKFLOW.1726.2},
+  URL          =  {https://workflowhub.eu/workflows/1726?version=3},
+  DOI          =  {10.48546/WORKFLOWHUB.WORKFLOW.1726.3},
   publisher    =  {WorkflowHub},
 }
 ```

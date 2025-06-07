@@ -56,7 +56,7 @@ Possible options are listed below.
 
 **Zenodo**
 ```bibtex
-@dataset{boonyarit_2024_14656345,
+@online{boonyarit2025synprotx_zenodo,
   author       = {Boonyarit, Bundit and
                   Kositchutima, Matin and
                   Na Phattalung, Tisorn and
@@ -64,21 +64,19 @@ Possible options are listed below.
                   Thuwajit, Chanitra and
                   Rungrotmongkol, Thanyada and
                   Nutanong, Sarana},
-  title        = {SynProtX: A Large-Scale Proteomics-Based Deep
-                   Learning Model for Predicting Synergistic
-                   Anticancer Drug Combinations
-                  },
-  month        = nov,
-  year         = 2024,
+  title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
+  year         = {2025},
+  note         = {[Data set]},
   publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.14656345},
-  url          = {https://doi.org/10.5281/zenodo.14656345},
+  doi          = {10.5281/zenodo.15603481},
+  url          = {https://doi.org/10.5281/zenodo.15603481},
+  note         = {[Dataset]},
 }
 ```
 
 **WorkflowHub**
 ```bibtex
-@article{boonyarit_yamprasert_2025,
+@online{boonyarit2025synprotx_workflowhub,
   author       =  {Boonyarit, Bundit and
                   Kositchutima, Matin and
                   Na Phattalung, Tisorn and
@@ -88,7 +86,7 @@ Possible options are listed below.
                   Nutanong, Sarana},
   title        =  {SynProtX},
   year         =  {2025}
-  URL          =  {https://workflowhub.eu/workflows/1726?version=3},
+  url          =  {https://workflowhub.eu/workflows/1726?version=3},
   DOI          =  {10.48546/WORKFLOWHUB.WORKFLOW.1726.3},
   publisher    =  {WorkflowHub},
 }
@@ -96,7 +94,7 @@ Possible options are listed below.
 
 **DOME-ML**
 ```bibtex
-@misc{boonyarit2025synprotx,
+@online{boonyarit2025synprotx_dome,
   author       = {Boonyarit, Bundit and
                   Kositchutima, Matin and
                   Na Phattalung, Tisorn and
@@ -105,16 +103,16 @@ Possible options are listed below.
                   Rungrotmongkol, Thanyada and
                   Nutanong, Sarana},
   title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
-  publisher    = {DOME-ML Registry},
   year         = {2025},
-  note         = {DOME-ML Annotations},
-  url          = {https://registry.dome-ml.org/review/7hk5upi8vx}
+  note         = {[DOME-ML Annotations]},
+  url          = {https://registry.dome-ml.org/review/7hk5upi8vx},
 }
+
 ```
 
 **Software Heritage**
 ```bibtex
-@software{boonyarit2025synprotx,
+@online{boonyarit2025synprotx_software,
   author       = {Boonyarit, Bundit and
                   Kositchutima, Matin and
                   Na Phattalung, Tisorn and
@@ -122,10 +120,9 @@ Possible options are listed below.
                   Thuwajit, Chanitra and
                   Rungrotmongkol, Thanyada and
                   Nutanong, Sarana},
-  title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
-  year         = 2025,
-  version      = {1},
-  url          = {https://archive.softwareheritage.org/swh:1:snp:28019112cc4ea0fdcb8c529e6c895b0dcc434add;origin=https://github.com/manbaritone/SynProtX}},
-  type         = {Computer software}
+  title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations (Version 1)},
+  year         = {2025},
+  note         = {[Computer software]},
+  url          = {https://archive.softwareheritage.org/swh:1:snp:28019112cc4ea0fdcb8c529e6c895b0dcc434add;origin=https://github.com/manbaritone/SynProtX},
 }
 ```

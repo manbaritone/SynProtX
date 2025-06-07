@@ -1418,6 +1418,7 @@ def main():
         r"almanac-ovary": "./data/nps_intersected/ALMANAC/ovary",
         r"almanac-skin": "./data/nps_intersected/ALMANAC/skin",
         r"friedman": "./data/nps_intersected/FRIEDMAN",
+        r"oneil": "./data/nps_intersected/ONEIL",
     }
     all_database_list = [i for i in database_path_dict.keys()]
     split_choices = ["cell_line", "drug", "drugcomb", "drug_row", "drug_col"]

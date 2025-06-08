@@ -8,6 +8,19 @@ SynProtX is a deep learning model that integrates large-scale proteomics data, m
 
 ![SynProtX architecture](https://github.com/manbaritone/SynProtX/blob/main/synprotx_architect.png)
 
+## DOME-ML
+
+**SynProtX** has been registered in the  DOME Registry to promote transparency, best practices, and reproducibility in supervised machine learning for biology. The registry follows the DOME framework, which emphasizes four key pillars:
+
+- **Data:** Clear documentation of dataset composition and partitioning
+- **Optimization:** Transparent description of training procedures and hyperparameters
+- **Model:** Detailed architecture, weight files, and implementation metadata
+- **Evaluation:** Comprehensive reporting of performance metrics and validation strategy
+
+**To view the full registration:** https://registry.dome-ml.org/review/7hk5upi8vx.
+
+If you are referencing SynProtX in a publication, please include the citation below.
+
 ## Setting up environment
 
 We use [Miniconda](https://docs.anaconda.com/miniconda/) to manage Python dependencies in this project. To reproduce our environment, please run the following script in the terminal:
@@ -33,7 +46,7 @@ A tarball will be obtained after download. After file extraction, move all neste
 - `06_smiles_feat_generate.ipynb` → `smiles_graph_data.pkl`
 - `07_to_ecfp6_deepsyn.ipynb` → `deepsyn_drug_row.npy`, `deepsyn_drug_col.npy`
 
-> If the console shows an error indicating that SMILES not found, you MUST run the file `06_smiles_feat_generate.ipynb` again to regenerate data.
+> If the console shows an error indicating that SMILES are not found, you MUST run the file `06_smiles_feat_generate.ipynb` again to regenerate data.
 
 ## Training and testing
 

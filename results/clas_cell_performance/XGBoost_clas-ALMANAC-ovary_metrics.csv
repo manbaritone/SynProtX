@@ -1,0 +1,5 @@
+cell_line,mean_AUCPR,mean_AUROC,mean_F1,mean_MCC,mean_Kappa,mean_Accuracy,mean_Balanced_Accuracy,mean_Specificity,mean_Precision,mean_Recall,std_AUCPR,std_AUROC,std_F1,std_MCC,std_Kappa,std_Accuracy,std_Balanced_Accuracy,std_Specificity,std_Precision,std_Recall
+OVCAR-4,0.36,0.6492,0.1733,0.177,0.1193,0.8047,0.5413,0.9803,0.5652,0.1024,0.0012,0.0032,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+OVCAR-5,0.3596,0.6057,0.1858,0.1563,0.112,0.7711,0.5407,0.9681,0.5152,0.1133,0.001,0.0044,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0
+OVCAR-8,0.4866,0.7261,0.3184,0.3388,0.2595,0.8331,0.5932,0.9864,0.7802,0.2,0.0012,0.0021,0.0009,0.0038,0.0017,0.0007,0.0004,0.0009,0.0109,0.0
+SK-OV-3,0.426,0.7167,0.2537,0.2041,0.1639,0.7766,0.562,0.9583,0.5417,0.1656,0.0008,0.0024,0.0,0.0,0.0,0.0,0.0,0.0,0.0,0.0

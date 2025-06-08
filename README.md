@@ -47,3 +47,9 @@ Possible options are listed below.
 - Flags `--no-feamol`, `--no-feagene`, `--no-feaprot` disable the molecule branch, gene expression branch, and protein expression branch, respectively, when propagate through the model.
 
 Note that there are more options to configure. Execute `python  synprotx/<model>.py -h` for more detailed description.
+
+## Results
+
+The performance evaluation per repeated fold can be looked up in the folder "results". This folder includes a comprehensive list of all results files obtained from the training process.
+The models in comparison are  `XGBoost`, `DeepDDS`, `DeepSyn`, `SynProtX` variations, and `AttenSyn`. The type of split includes `random`, cold-start for (leave-one-out) drugs, drug combinations,
+and cell lines, and ablation (gene and protein) on both classification and regression tasks.

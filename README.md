@@ -71,6 +71,9 @@ The performance evaluation per repeated fold can be looked up in the folder "res
 The models in comparison are  `XGBoost`, `DeepDDS`, `DeepSyn`, `SynProtX` variations, and `AttenSyn`. The type of split includes `random`, cold-start for (leave-one-out) drugs, drug combinations,
 and cell lines, and ablation (gene and protein) on both classification and regression tasks.
 
+> **Disclaimer:** The CSV files in the "results" folder are not covered by the same MIT license as the source code.
+These data files are dedicated to the public domain under **CC0 public domain**.
+
 ## Citations
 
 **Zenodo**

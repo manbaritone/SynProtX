@@ -72,7 +72,7 @@ The models in comparison are  `XGBoost`, `DeepDDS`, `DeepSyn`, `SynProtX` variat
 and cell lines, and ablation (gene and protein) on both classification and regression tasks.
 
 > **Disclaimer:** The CSV files in the "results" folder are not covered by the same MIT license as the source code.
-These data files are dedicated to the public domain under **Creative Commons Zero v1.0 Universal (CC0)**.
+These data files are dedicated to the public domain under **CC0**.
 
 ## Citations
 

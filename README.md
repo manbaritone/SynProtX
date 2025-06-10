@@ -1,4 +1,4 @@
-# SynProtX
+![image](https://github.com/user-attachments/assets/8f91a936-f97d-4ddc-a87d-e8a2cace5fb6)# SynProtX
 
 [![DOI](https://zenodo.org/badge/DOI/10.5281/zenodo.13285494.svg)](https://doi.org/10.5281/zenodo.13285494)
 
@@ -145,6 +145,6 @@ These data files are dedicated to the public domain under **CC0**.
   title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations (Version 1)},
   year         = {2025},
   note         = {[Computer software]},
-  url          = {https://archive.softwareheritage.org/swh:1:snp:28019112cc4ea0fdcb8c529e6c895b0dcc434add;origin=https://github.com/manbaritone/SynProtX},
+  url          = {https://archive.softwareheritage.org/swh:1:snp:750d09d4ed20b1628cef1f20cf0d2b2e518c4a3b;origin=https://github.com/manbaritone/SynProtX},
 }
 ```

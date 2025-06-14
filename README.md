@@ -59,7 +59,7 @@ Possible options are listed below.
 - `--mode`/`-m` input must be either `clas`, for classification task, or `regr`, for regression task. Default to `clas`
 - Flags `--no-feamol`, `--no-feagene`, `--no-feaprot` disable the molecule branch, gene expression branch, and protein expression branch, respectively, when propagate through the model.
 
-**Note:** There are more options to configure. Execute `python  synprotx/<model>.py -h` for a more detailed description.
+**Note:** There are more options to configure. Execute `python synprotx/<model>.py -h` for a more detailed description.
 
 ## Results
 

@@ -30,6 +30,53 @@ conda activate SynProtX
 
 Datasets, hyperparameters, and model checkpoints can be downloaded through [Zenodo](https://doi.org/10.5281/zenodo.13285494).
 
+## Using SynProtX for inference
+
+SynProtX allows the prediction of synergistic effects between drug combinations through inference using the SynProtX model. It leverages various tissue-specific and study datasets to make these predictions.
+
+### Usage Example
+
+To perform inference, you can run the following command:
+
+```bash
+python synprotx_inference.py --smi1 "CCOc1ccc2c(c1)N=C(N)N(c3ccc(Cl)cc3)S2" --smi2 "CN1CCC(CC1)Nc2nccc3c2ncn3C" \
+--dataset ALMANAC-Breast --cell_line MCF7 --task classification --thr 0.5
+```
+
+In this example:
+- `--smi1` and `--smi2` represent the SMILES strings of the two drug compounds being tested.
+- `--dataset` specifies the dataset to use (e.g., ALMANAC-Breast).
+- `--cell_line` indicates the cell line to consider (e.g., MCF7).
+- `--task` defines the type of task: classification for synergy/antagonism prediction or regression for raw score prediction.
+- `--thr` sets the threshold for classification tasks, used to differentiate between synergistic and antagonistic interactions.
+
+### Available Options
+
+| Option        | Description                                                                 |
+|---------------|-----------------------------------------------------------------------------|
+| `--smi1`      | SMILES string of the first compound (required)                              |
+| `--smi2`      | SMILES string of the second compound (required)                             |
+| `--cell_line` | Cell-line identifier (e.g. MCF7) (required)                                 |
+| `--dataset`   | Dataset to use (default: `ALMANAC-Breast`). Available options are:          |
+|               | - For Tissue Datasets: `ALMANAC-Breast`, `ALMANAC-Lung`, `ALMANAC-Ovary,` `ALMANAC-Skin` |
+|               | - For Study Datasets: `FRIEDMAN`, `ONEIL`                                    |
+| `--task`      | Task type (default: `regression`). Options:                                 |
+|               | - `classification`, `regression`                                             |
+| `--device`    | Device for computation (default: `cpu`). Options:                           |
+|               | - `cpu`, `cuda:0` (or another CUDA device string)                            |
+| `--thr`       | Threshold for classifying synergy vs antagonism (only for `classification` task). Default: `0.5` |
+
+## Dataset availability
+
+| Dataset          | Cell Lines                                                                 |
+|------------------|-----------------------------------------------------------------------------|
+| ALMANAC-Breast   | BT-549, MCF7, MDA-MB-231, MDA-MB-468                                        |
+| ALMANAC-Lung     | A549, EKVX, HOP-62, HOP-92, NCI-H226, NCI-H460, NCI-H522                    |
+| ALMANAC-Ovary    | OVCAR-4, OVCAR-5, OVCAR-8, SK-OV-3                                          |
+| ALMANAC-Skin     | SK-MEL-2, SK-MEL-5, SK-MEL-28, UACC-257                                     |
+| FRIEDMAN (Skin)  | A2058, G-361, IPC-298, RVH-421, SK-MEL-2, SK-MEL-5, SK-MEL-28, UACC-257    |
+| ONEIL (Several Tissues) | A2058 (skin), NCI-H460 (lung), SK-OV-3 (ovary), A2780 (ovary), A427 (lung), RKO (large intestine), SW837 (large intestine) |
+
 ## Generating dataset
 
 A tarball will be obtained after download. After file extraction, move all nested folders to the root of this project directory. You might need to move all files in `data/export` up to `data` folder. Otherwise, you will run the Jupyter Notebook files to generate mandatory data. Let’s take a look at `ipynb` folder. Run the following files in order if you want to replicate our exported data.

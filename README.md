@@ -1,3 +1,5 @@
+# SynProtX
+
 An official implementation of our research paper **"SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations"**.
 
 SynProtX is a deep learning model that integrates large-scale proteomics data, molecular graphs, and chemical fingerprints to predict synergistic effects of anticancer drug combinations. It provides robust performance across tissue-specific and study-specific datasets, enhancing reproducibility and biological relevance in drug synergy prediction.
@@ -28,7 +30,7 @@ conda activate SynProtX
 
 ## Downloading raw data
 
-Datasets, hyperparameters, and model checkpoints can be downloaded through [Zenodo](https://doi.org/10.5281/zenodo.13285494).
+Datasets, hyperparameters, and model checkpoints can be downloaded through [![https://doi.org/10.5281/zenodo.13285494](https://zenodo.org/badge/DOI/10.5281/zenodo.13285494.svg)](https://doi.org/10.5281/zenodo.13285494).
 
 ## Using SynProtX for inference
 

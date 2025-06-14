@@ -58,7 +58,7 @@ In this example:
 | `--smi2`      | SMILES string of the second compound (required)                             |
 | `--cell_line` | Cell-line identifier (e.g. MCF7) (required)                                 |
 | `--dataset`   | Dataset to use (default: `ALMANAC-Breast`). Available options are:          |
-|               | - For Tissue Datasets: `ALMANAC-Breast`, `ALMANAC-Lung`, `ALMANAC-Ovary,` `ALMANAC-Skin` |
+|               | - For Tissue Datasets: `ALMANAC-Breast`, `ALMANAC-Lung`, `ALMANAC-Ovary`, `ALMANAC-Skin` |
 |               | - For Study Datasets: `FRIEDMAN`, `ONEIL`                                    |
 | `--task`      | Task type (default: `regression`). Options:                                 |
 |               | - `classification`, `regression`                                             |

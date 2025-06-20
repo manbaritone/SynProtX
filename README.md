@@ -140,22 +140,6 @@ These data files are dedicated to the public domain under **CC0**.
   doi          = {https://doi.org/10.1093/gigascience/giaf080},
   url          = {https://doi.org/10.1093/gigascience/giaf080}
 }
-
-@article{boonyarit2025synprotx_zenodo,
-  author       = {Boonyarit, Bundit and
-                  Kositchutima, Matin and
-                  Na Phattalung, Tisorn and
-                  Yamprasert, Nattawin and
-                  Thuwajit, Chanitra and
-                  Rungrotmongkol, Thanyada and
-                  Nutanong, Sarana},
-  title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
-  year         = {2025},
-  publisher    = {Zenodo},
-  doi          = {10.5281/zenodo.15603481},
-  url          = {https://doi.org/10.5281/zenodo.15603481},
-  note         = {[Dataset]}
-}
 ```
 
 **Zenodo**

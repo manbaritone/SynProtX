@@ -121,6 +121,43 @@ These data files are dedicated to the public domain under **CC0**.
 
 ## Citations
 
+**Research Article**
+```bibtex
+@article{boonyarit2025synprotx_gigascience,
+  author       = {Boonyarit, Bundit and
+                  Kositchutima, Matin and
+                  Na Phattalung, Tisorn and
+                  Yamprasert, Nattawin and
+                  Thuwajit, Chanitra and
+                  Rungrotmongkol, Thanyada and
+                  Nutanong, Sarana},
+  title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
+  journal      = {GigaScience},
+  volume       = {},
+  number       = {},
+  pages        = {},
+  keywords     = {cancer drug combination, deep learning, drug discovery, graph neural networks, machine learning, multi-omics, personalized medicine, proteomics, synergistic effect},
+  doi          = {https://doi.org/10.1093/gigascience/giaf080},
+  url          = {https://doi.org/10.1093/gigascience/giaf080}
+}
+
+@article{boonyarit2025synprotx_zenodo,
+  author       = {Boonyarit, Bundit and
+                  Kositchutima, Matin and
+                  Na Phattalung, Tisorn and
+                  Yamprasert, Nattawin and
+                  Thuwajit, Chanitra and
+                  Rungrotmongkol, Thanyada and
+                  Nutanong, Sarana},
+  title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
+  year         = {2025},
+  publisher    = {Zenodo},
+  doi          = {10.5281/zenodo.15603481},
+  url          = {https://doi.org/10.5281/zenodo.15603481},
+  note         = {[Dataset]}
+}
+```
+
 **Zenodo**
 ```bibtex
 @online{boonyarit2025synprotx_zenodo,
@@ -133,11 +170,10 @@ These data files are dedicated to the public domain under **CC0**.
                   Nutanong, Sarana},
   title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
   year         = {2025},
-  note         = {[Data set]},
   publisher    = {Zenodo},
   doi          = {10.5281/zenodo.15603481},
   url          = {https://doi.org/10.5281/zenodo.15603481},
-  note         = {[Dataset]},
+  note         = {[Dataset]}
 }
 ```
 
@@ -155,7 +191,7 @@ These data files are dedicated to the public domain under **CC0**.
   year         =  {2025}
   url          =  {https://workflowhub.eu/workflows/1726?version=3},
   DOI          =  {10.48546/WORKFLOWHUB.WORKFLOW.1726.3},
-  publisher    =  {WorkflowHub},
+  publisher    =  {WorkflowHub}
 }
 ```
 
@@ -172,7 +208,7 @@ These data files are dedicated to the public domain under **CC0**.
   title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
   year         = {2025},
   note         = {[DOME-ML Annotations]},
-  url          = {https://registry.dome-ml.org/review/7hk5upi8vx},
+  url          = {https://registry.dome-ml.org/review/7hk5upi8vx}
 }
 
 ```
@@ -190,6 +226,6 @@ These data files are dedicated to the public domain under **CC0**.
   title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations (Version 1)},
   year         = {2025},
   note         = {[Computer software]},
-  url          = {https://archive.softwareheritage.org/swh:1:snp:750d09d4ed20b1628cef1f20cf0d2b2e518c4a3b;origin=https://github.com/manbaritone/SynProtX},
+  url          = {https://archive.softwareheritage.org/swh:1:snp:750d09d4ed20b1628cef1f20cf0d2b2e518c4a3b;origin=https://github.com/manbaritone/SynProtX}
 }
 ```

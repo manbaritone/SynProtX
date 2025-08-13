@@ -6,18 +6,6 @@ SynProtX is a deep learning model that integrates large-scale proteomics data, m
 
 ![SynProtX architecture](https://github.com/manbaritone/SynProtX/blob/main/synprotx_architect.png)
 
-## DOME-ML
-
-**SynProtX** has been registered in the  DOME Registry to promote transparency, best practices, and reproducibility in supervised machine learning for biology. The registry follows the DOME framework, which emphasizes four key pillars:
-
-- **Data:** Clear documentation of dataset composition and partitioning
-- **Optimization:** Transparent description of training procedures and hyperparameters
-- **Model:** Detailed architecture, weight files, and implementation metadata
-- **Evaluation:** Comprehensive reporting of performance metrics and validation strategy
-
-**To view the full registration:** https://registry.dome-ml.org/review/7hk5upi8vx.
-
-If you are referencing SynProtX in a publication, please include the citation below.
 
 ## Setting up environment
 
@@ -126,19 +114,21 @@ These data files are dedicated to the public domain under **CC0**.
 @article{boonyarit2025synprotx_gigascience,
   author       = {Boonyarit, Bundit and
                   Kositchutima, Matin and
-                  Na Phattalung, Tisorn and
+                  Phattalung, Tisorn Na and
                   Yamprasert, Nattawin and
                   Thuwajit, Chanitra and
                   Rungrotmongkol, Thanyada and
                   Nutanong, Sarana},
-  title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
+  title        = {SynProtX: a large-scale proteomics-based deep learning model for predicting synergistic anticancer drug combinations},
   journal      = {GigaScience},
-  volume       = {},
-  number       = {},
-  pages        = {},
-  keywords     = {cancer drug combination, deep learning, drug discovery, graph neural networks, machine learning, multi-omics, personalized medicine, proteomics, synergistic effect},
-  doi          = {https://doi.org/10.1093/gigascience/giaf080},
-  url          = {https://doi.org/10.1093/gigascience/giaf080}
+  volume       = {14},
+  pages        = {giaf080},
+  year         = {2025},
+  month        = {08},
+  issn         = {2047-217X},
+  doi          = {10.1093/gigascience/giaf080},
+  url          = {https://doi.org/10.1093/gigascience/giaf080},
+  eprint       = {https://academic.oup.com/gigascience/article-pdf/doi/10.1093/gigascience/giaf080/64028448/giaf080.pdf},
 }
 ```
 
@@ -147,7 +137,7 @@ These data files are dedicated to the public domain under **CC0**.
 @online{boonyarit2025synprotx_zenodo,
   author       = {Boonyarit, Bundit and
                   Kositchutima, Matin and
-                  Na Phattalung, Tisorn and
+                  Phattalung, Tisorn Na and
                   Yamprasert, Nattawin and
                   Thuwajit, Chanitra and
                   Rungrotmongkol, Thanyada and
@@ -166,7 +156,7 @@ These data files are dedicated to the public domain under **CC0**.
 @online{boonyarit2025synprotx_workflowhub,
   author       =  {Boonyarit, Bundit and
                   Kositchutima, Matin and
-                  Na Phattalung, Tisorn and
+                  Phattalung, Tisorn Na and
                   Yamprasert, Nattawin and
                   Thuwajit, Chanitra and
                   Rungrotmongkol, Thanyada and
@@ -179,30 +169,12 @@ These data files are dedicated to the public domain under **CC0**.
 }
 ```
 
-**DOME-ML**
-```bibtex
-@online{boonyarit2025synprotx_dome,
-  author       = {Boonyarit, Bundit and
-                  Kositchutima, Matin and
-                  Na Phattalung, Tisorn and
-                  Yamprasert, Nattawin and
-                  Thuwajit, Chanitra and
-                  Rungrotmongkol, Thanyada and
-                  Nutanong, Sarana},
-  title        = {SynProtX: A Large-Scale Proteomics-Based Deep Learning Model for Predicting Synergistic Anticancer Drug Combinations},
-  year         = {2025},
-  note         = {[DOME-ML Annotations]},
-  url          = {https://registry.dome-ml.org/review/7hk5upi8vx}
-}
-
-```
-
 **Software Heritage**
 ```bibtex
 @online{boonyarit2025synprotx_software,
   author       = {Boonyarit, Bundit and
                   Kositchutima, Matin and
-                  Na Phattalung, Tisorn and
+                  Phattalung, Tisorn Na and
                   Yamprasert, Nattawin and
                   Thuwajit, Chanitra and
                   Rungrotmongkol, Thanyada and
